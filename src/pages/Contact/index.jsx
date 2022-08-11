@@ -2,7 +2,7 @@ import MainLayout from '../../layouts/Main'
 
 const Contact = () => {
   return (
-    <MainLayout className='mt-6 px-4'>
+    <MainLayout className='mt-6 px-4 pb-4'>
       <div className='container has-background-light p-4 box'>
         <div className='columns'>
           <div className='column'>
