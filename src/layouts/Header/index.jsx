@@ -5,7 +5,7 @@ import css from './header.module.css'
 const Header = () => {
   const [active, setActive] = useState(false)
 
-  const { pages, brand } = nav
+  const { routes, brand } = nav
 
   return (
     <>
@@ -20,7 +20,9 @@ const Header = () => {
               {brand.logo ? (
                 <img src={brand.logo} width={112} height={28} />
               ) : (
-                <p className='is-size-4'>{brand.title}</p>
+                <p className='is-size-4 is-uppercase has-text-weight-bold'>
+                  {brand.title}
+                </p>
               )}
             </a>
             <a
@@ -41,8 +43,12 @@ const Header = () => {
             className={`navbar-menu ${active ? 'is-active' : null}`}
           >
             <div className='navbar-end'>
-              {pages.map(({ name, path }) => (
-                <a className='navbar-item' href={path} key={path}>
+              {routes.map(({ name, path }) => (
+                <a
+                  className='navbar-item has-text-weight-semibold'
+                  href={path}
+                  key={path}
+                >
                   {name}
                 </a>
               ))}
