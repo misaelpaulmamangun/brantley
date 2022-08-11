@@ -2,11 +2,11 @@ import Header from '../Header'
 import Footer from '../Footer/Footer'
 import css from './main.module.css'
 
-const MainLayout = ({ children }) => {
+const MainLayout = ({ children, className }) => {
   return (
     <>
       <Header />
-      <main className={css.main}>{children}</main>
+      <main className={`${css.main} ${className}`}>{children}</main>
       <Footer />
     </>
   )

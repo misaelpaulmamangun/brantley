@@ -1,10 +1,10 @@
-import MainLayout from '../layouts/Main'
+import MainLayout from '../../layouts/Main'
 
 const About = () => {
   return (
-    <MainLayout>
+    <MainLayout className='mt-6'>
       <div className='container'>
-        <h1 className='title'>About</h1>
+        <h1 className='title is-size-1 is-uppercase'>About</h1>
         <p>This is the about page.</p>
       </div>
     </MainLayout>

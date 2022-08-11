@@ -1,5 +1,5 @@
 import { Router, Route } from 'preact-router'
-import Home from '../pages/Home'
+import Home from '../pages/Main'
 import About from '../pages/About'
 import Contact from '../pages/Contact'
 
