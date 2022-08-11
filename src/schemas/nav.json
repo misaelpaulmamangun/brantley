@@ -3,7 +3,7 @@
     "title": "Nature",
     "url": "/"
   },
-  "pages": [
+  "routes": [
     {
       "name": "Home",
       "path": "/"
