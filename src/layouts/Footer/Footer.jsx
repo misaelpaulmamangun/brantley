@@ -3,7 +3,7 @@ import css from './footer.module.css'
 const Footer = () => {
   return (
     <>
-      <footer className={css.footer}>
+      <footer className={`${css.footer} has-background-white`}>
         <div className='container'>
           <div className='columns'>
             <div className='column'>

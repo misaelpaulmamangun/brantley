@@ -124,8 +124,8 @@ const Home = () => {
 
       <section className='mt-4 mb-4 px-4'>
         <div className='container'>
-          <h2 className='is-size-2 has-text-centered'>
-            Lorem ipsum dolor sit amet consectetur.
+          <h2 className='is-size-1 has-text-weight-bold has-text-centered'>
+            Lorem ipsum dolor.
           </h2>
           <p className='has-text-centered mb-4'>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde alias

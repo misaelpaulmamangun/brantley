@@ -7,7 +7,7 @@ const Hero = () => {
         <div className={css.opacity}>
           <div className={`container ${css.inner}`}>
             <div>
-              <h1 className={`title is-2 has-text-white ${css.title}`}>
+              <h1 className={`title is-1 has-text-white ${css.title}`}>
                 Lorem, ipsum dolor.
               </h1>
               <p className='title is-5 has-text-white'>
