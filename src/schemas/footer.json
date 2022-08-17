@@ -1,0 +1,64 @@
+{
+  "routes": [
+    {
+      "title": "About",
+      "child": [
+        {
+          "title": "Reviews",
+          "link": "/reviews"
+        },
+        {
+          "title": "How it works",
+          "link": "/how-it-works"
+        }
+      ]
+    },
+    {
+      "title": "Company",
+      "child": [
+        {
+          "title": "Pricing",
+          "link": "/pricing"
+        },
+        {
+          "title": "Case studies",
+          "link": "/case-studies"
+        },
+        {
+          "title": "Products",
+          "link": "/products"
+        }
+      ]
+    },
+    {
+      "title": "Support",
+      "child": [
+        {
+          "title": "Documentation",
+          "link": "/documentation"
+        },
+        {
+          "title": "Data Securities",
+          "link": "/data-securities"
+        }
+      ]
+    },
+    {
+      "title": "Legal",
+      "child": [
+        {
+          "title": "Privacy Policy",
+          "link": "/privacy-policy"
+        },
+        {
+          "title": "Terms and Condition",
+          "link": "/terms-and-condition"
+        },
+        {
+          "title": "Cookie Information",
+          "link": "/cookie-information"
+        }
+      ]
+    }
+  ]
+}
