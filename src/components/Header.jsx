@@ -1,10 +1,10 @@
-import { useState } from 'preact/hooks';
-import nav from '../data/nav.json';
+import { useState } from 'preact/hooks'
+import nav from '../data/nav.json'
 
 const Header = () => {
-  const [active, setActive] = useState(false);
+  const [active, setActive] = useState(false)
 
-  const { routes, brand } = nav;
+  const { routes, brand } = nav
 
   return (
     <>
@@ -51,7 +51,7 @@ const Header = () => {
                   {name}
                 </a>
               ))}
-              <div class='buttons'>
+              <div class='buttons is-hidden-mobile'>
                 <a class='button is-primary'>
                   <strong>Login</strong>
                 </a>
@@ -61,7 +61,7 @@ const Header = () => {
         </nav>
       </header>
     </>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

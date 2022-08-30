@@ -84,7 +84,7 @@ const Home = () => {
                 Blanditiis, dicta iusto. Ad ipsam atque commodi placeat quos
                 deserunt doloremque laudantium?
               </p>
-              <button class='button is-primary is-outlined is-responsive mt-4'>
+              <button class='button is-primary is-outlined mt-4'>
                 Learn More
               </button>
             </div>

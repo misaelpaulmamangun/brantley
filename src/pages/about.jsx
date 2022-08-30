@@ -1,5 +1,5 @@
 import MainLayout from '../layouts/main'
-import Hero from './../components/Hero'
+import Hero from '../components/Hero'
 
 const About = () => {
   const title = 'About Us'
